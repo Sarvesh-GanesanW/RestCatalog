@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+sqlalchemy[asyncio]
+asyncpg
+psycopg2-binary # Often a dependency for SQLAlchemy even with asyncpg
+aiofiles
+python-dotenv
+typing_extensions # For Pydantic compatibility with older Python if necessary
+
